@@ -10,3 +10,6 @@ encoded = pd.get_dummies(df["City"])
 
 print(encoded)
 # one hot = converting it into binary form
+df_encoded = pd.get_dummies(df, columns=["City"])
+
+print(df_encoded)
